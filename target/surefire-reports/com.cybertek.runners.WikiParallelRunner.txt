@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.cybertek.runners.WikiParallelRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.cybertek.runners.WikiParallelRunner
+com.cybertek.runners.WikiParallelRunner.initializationError  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: C:\Users\hilal\IdeaProjects\cybertek18-cucumber-junit\src\test\resources\features\WikiSearch.feature
+
