@@ -1,0 +1,257 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-16T03:44:16.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create a vehicle",
+        "description": "",
+        "id": "create-vehicle;create-a-vehicle",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cybertek.step_definitions.createVehicleStepDefinitions.user_is_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user logs in with \"storemanager85\" and \"UserUser123\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.cybertek.step_definitions.createVehicleStepDefinitions.user_logs_in_with_and_credentials(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cybertek.step_definitions.createVehicleStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user click on the create car button",
+            "match": {
+              "location": "com.cybertek.step_definitions.createVehicleStepDefinitions.user_click_on_the_create_car_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enter vehicle information:",
+            "match": {
+              "location": "com.cybertek.step_definitions.createVehicleStepDefinitions.user_enter_vehicle_information(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "licencePlate",
+                  "Driver",
+                  "Location",
+                  "Model Year"
+                ]
+              },
+              {
+                "cells": [
+                  "test_plate",
+                  "SDET",
+                  "WashingtonDc",
+                  "2020"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createCar"
+          }
+        ]
+      }
+    ],
+    "name": "Create Vehicle",
+    "description": "  As a user, I should be able to create vehicles",
+    "id": "create-vehicle",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/createVehicle.feature",
+    "tags": [
+      {
+        "name": "@createCar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

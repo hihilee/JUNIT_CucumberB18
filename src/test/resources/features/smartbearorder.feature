@@ -10,7 +10,7 @@ Feature: Order
     When User enters "Chicago" to city
     Then User enters "IL" to state
     And User enters "60056" to zipcode
-    When User selects Visa as card type
+    When User selects "Visa" as card type
     Then User enters "1111222233334444" to card number
     And User enters "12/22" to expiration date
     Then User clicks process button
